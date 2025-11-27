@@ -15,9 +15,5 @@ def index():
 def menu():
     return render_template('menu.html')
 
-@app.route("/test3")
-def test3():
-    return render_template('test3.html')
-
 if __name__ == '__main__':
     app.run(debug=True)
